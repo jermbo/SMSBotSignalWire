@@ -1,0 +1,17 @@
+{
+  "name": "sms-bot-signalwire-site",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "serve": "vite preview",
+    "build2": "TAILWIND_MODE=watch postcss tailwind.css -o ./public/styles.css -w --verbose",
+    "prod": "NODE_ENV=production postcss tailwind.css -o ./public/styles.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.5.4"
+  }
+}
